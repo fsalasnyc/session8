@@ -12,7 +12,8 @@ html {
 body {
   background-color:white;
   color:#222;
-	/* font family */
+font-family: 'Open Sans', sans-serif;
+
 }
 header {
   display:flex;
@@ -32,6 +33,7 @@ header nav a {
   padding:25px 20px;
   color:green;
   font-size:20px;
+
 }
 
 /* add hover */
@@ -100,3 +102,21 @@ form {
 /* #savings */
 
 /* media query */
+
+@media screen and (max-width:600px){
+    section:nth-child(2) div {
+      flex:1;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    section:nth-child(2) div {
+      flex:.75;
+    }
+  }
+   /* End Query */
+
+
+
+
